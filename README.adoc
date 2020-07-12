@@ -40,7 +40,7 @@ Inicialisation function for setting up I2C and Serial port.
 
 baudrate: `300`, `1200`, `2400`, `4800`, `9600`, `19200`, `38400`, `57600`, `74880`, `115200` - sets baudrate of Serial port
 
-time: `1 - 1000` - sets time of Serial timeout
+time: `1 - 1000` - sets time of Serial timeout in ms
 
 ---
 
