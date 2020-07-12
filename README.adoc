@@ -101,7 +101,11 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 
 #### Returns
 
+##### Button
+
 `0` if button is not pressed or `1` if button is pressed.
+
+##### Color sensor
 
 `0` if no color is present
 
