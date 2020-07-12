@@ -104,13 +104,21 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 `0` if button is not pressed or `1` if button is pressed.
 
 `0` if no color is present
+
 `1` if black is present
+
 `2` if blue is present
+
 `3` if green is present
+
 `4` if yellow is present
+
 `5` if red is present
+
 `6` if white is present
+
 `7` if brown is present
+
 
 ---
 
