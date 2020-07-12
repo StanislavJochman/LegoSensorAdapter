@@ -1,0 +1,23 @@
+/*
+Created by Stanislav Jochman
+*/
+#######################################
+# Syntax Coloring Map For LegoSensorAdapter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+LegoSensorAdapter	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+listDevices	KEYWORD2
+begin	KEYWORD2
+setAddress	KEYWORD2
+setMode	KEYWORD2
+readData	KEYWORD2
+LegoSensor	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################

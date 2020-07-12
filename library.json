@@ -1,0 +1,28 @@
+{
+  "name": "LegoSensorAdapter",
+  "keywords": "Lego, EV3, educational, learn, tool, NXT, Lego Technik,",
+  "description": "Arduino Library for interfacing with lego sensors using adapter board",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/StanislavJochman/LegoSensorAdapter.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Stanislav Jochman",
+      "email": "s.jochman@gmail.com",
+      "url": "https://stanislavjochman.sk/",
+      "maintainer": true
+    }
+  ],
+  "dependencies":
+  {
+    "name": "Lego sensor adapter boards",
+    "authors": "Stanislav Jochman",
+    "frameworks": "arduino"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
