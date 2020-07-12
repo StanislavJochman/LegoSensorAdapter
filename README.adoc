@@ -40,7 +40,7 @@ Inicialisation function for setting up I2C and Serial port.
 
 baudrate: `300`, `1200`, `2400`, `4800`, `9600`, `19200`, `38400`, `57600`, `74880`, `115200` - sets baudrate of Serial port
 
-time: `1 - 1000` - sets time of Serial timeout in ms
+time: `1` - `1000` - sets time of Serial timeout in ms
 
 ---
 
@@ -76,7 +76,7 @@ Inicialisation function for setting up I2C and Serial port.
 
 #### Parameters
 
-address: `0x04 - 0x77` - I2C address of module where mode will be set 
+address: `0x04` - `0x77` - I2C address of module where mode will be set 
 
 mode: `Off`, `LightB`, `LightR`, `Color` - sets the mode of operation for sensors
 
@@ -97,7 +97,7 @@ Reads the value from sensor.
 
 #### Parameters
 
-address: `0x04 - 0x77` - I2C address of module where mode will be set 
+address: `0x04` - `0x77` - I2C address of module where mode will be set 
 
 #### Returns
 
@@ -117,7 +117,7 @@ address: `0x04 - 0x77` - I2C address of module where mode will be set
 
 ## License ##
 
-Copyright © 2019 RobotCing Team. All right reserved.
+Copyright © 2020 Stanislav Jochman. All right reserved.
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
