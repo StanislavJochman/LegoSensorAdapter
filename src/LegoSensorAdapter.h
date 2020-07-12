@@ -1,5 +1,5 @@
 /*
-Created by RobotCing Team
+Created by Stanislav Jochman
 */
 #ifndef LegoSensorAdapter
 #define LegoSensorAdapter
