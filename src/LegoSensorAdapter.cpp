@@ -69,9 +69,6 @@ modes
 */
 
 void LegoSensor::setMode(int address,String mode){
-	if (address>0X77 || address<0x04){
-    	#define I2C_error
-  	}
 	Wire.beginTransmission(address);
 	//Sensor off
 	if(mode == "Off"){
@@ -92,9 +89,6 @@ void LegoSensor::setMode(int address,String mode){
 	Wire.endTransmission();
 }
 int LegoSensor::readData(int address){
-	if (address>0X77 || address<0x04){
-    	
-  	}
   	Wire.requestFrom(address,2);
   	int data = (Wire.read() | Wire.read() << 8);
   	return data;
