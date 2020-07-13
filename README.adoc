@@ -10,11 +10,10 @@ http://.sk
 ## Libraries Functions
 
 ### listDevices()
-[Motor]
 
 #### Description
 
-Lists all available devices.
+Lists all available I2C devices.
 
 #### Syntax
 
@@ -23,9 +22,6 @@ Lists all available devices.
 ---
 
 ### begin()
-
-[Sensor]
-
 
 #### Description
 
@@ -46,9 +42,6 @@ time: `1` - `1000` - sets time of Serial timeout in ms
 
 ### setAddress()
 
-[Sensor]
-
-
 #### Description
 
 Functions that allows you to set I2C addresses of individual modules using Serial monitor.
@@ -61,9 +54,6 @@ Functions that allows you to set I2C addresses of individual modules using Seria
 ---
 
 ### setMode()
-
-[Sensor]
-
 
 #### Description
 
@@ -123,6 +113,25 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 
 `7` if brown is present
 
++-------+------------+-------+
+| Value | Color name | Color |
++-------+------------+-------+
+|   0   |  No color  |       |
++-------+------------+-------+
+|   1   |    Black   |       |
++-------+------------+-------+
+|   2   |    Blue    |       |
++-------+------------+-------+
+|   3   |    Green   |       |
++-------+------------+-------+
+|   4   |   Yellow   |       |
++-------+------------+-------+
+|   5   |     Red    |       |
++-------+------------+-------+
+|   6   |    White   |       |
++-------+------------+-------+
+|   7   |    Brown   |       |
++-------+------------+-------+
 
 ---
 
