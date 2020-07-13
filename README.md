@@ -1,6 +1,9 @@
 # Library for Lego adapter boards  #
 
 This library allows you to connect Lego EV3 sensors to arduino using adapter board.
+<p align="center">
+  <img width="100%" alt= "Adapter board" src="https://github.com/StanislavJochman/LegoSensorAdapter/blob/master/sensor%20Board.png">
+</p>
 
 For more information about this library please visit us at
 http://.sk
