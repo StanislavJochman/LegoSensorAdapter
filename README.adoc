@@ -113,25 +113,12 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 
 `7` if brown is present
 
-+-------+------------+-------+
-| Value | Color name | Color |
-+-------+------------+-------+
-|   0   |  No color  |       |
-+-------+------------+-------+
-|   1   |    Black   |       |
-+-------+------------+-------+
-|   2   |    Blue    |       |
-+-------+------------+-------+
-|   3   |    Green   |       |
-+-------+------------+-------+
-|   4   |   Yellow   |       |
-+-------+------------+-------+
-|   5   |     Red    |       |
-+-------+------------+-------+
-|   6   |    White   |       |
-+-------+------------+-------+
-|   7   |    Brown   |       |
-+-------+------------+-------+
+
+![Lego sensor colors](https://www.funcodeforkids.com/wp-content/uploads/Lego-Mindstorms-EV3-software-color-sensor-compare-color.jpg)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 ---
 
