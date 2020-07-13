@@ -93,26 +93,23 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 
 ##### Button
 
-`0` if button is not pressed or `1` if button is pressed.
+| Value |     State     |
+|:-----:|:-------------:|
+|   1   |    Pressed    |
+|   0   |  Not pressed  |
 
 ##### Color sensor
 
-`0` if no color is present
-
-`1` if black is present
-
-`2` if blue is present
-
-`3` if green is present
-
-`4` if yellow is present
-
-`5` if red is present
-
-`6` if white is present
-
-`7` if brown is present
-
+| Value | Color name |
+|:-----:|:----------:|
+|   0   |  No color  |
+|   1   |    Black   |
+|   2   |    Blue    |
+|   3   |    Green   |
+|   4   |   Yellow   |
+|   5   |     Red    |
+|   6   |    White   |
+|   7   |    Brown   |
 
 ![Lego sensor colors](https://www.funcodeforkids.com/wp-content/uploads/Lego-Mindstorms-EV3-software-color-sensor-compare-color.jpg)
 
