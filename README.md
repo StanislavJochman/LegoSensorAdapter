@@ -100,6 +100,8 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 
 ##### Color sensor
 
+![Lego sensor colors](https://www.funcodeforkids.com/wp-content/uploads/Lego-Mindstorms-EV3-software-color-sensor-compare-color.jpg)
+
 | Value | Color name |
 |:-----:|:----------:|
 |   0   |  No color  |
@@ -111,7 +113,7 @@ address: `0x04` - `0x77` - I2C address of module where mode will be set
 |   6   |    White   |
 |   7   |    Brown   |
 
-![Lego sensor colors](https://www.funcodeforkids.com/wp-content/uploads/Lego-Mindstorms-EV3-software-color-sensor-compare-color.jpg)
+
 
 ---
 
